@@ -20,4 +20,116 @@ body {
  https://fonts.google.com/specimen/Rubik
 */
 
-/* ----- zde zacni psat vlastni css ----- */
+body {
+
+    width: 670px;
+    background: #f5f5f5;
+    font-family:'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+}
+.zbozi{
+    position: relative;
+    left: 50%;
+}
+.vizual{
+    float: left;
+    width: 50%;
+    background: linear-gradient(#06d7c1, #50cc49);
+    height:440px;
+    color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:  1px 1px 20px #959595;
+}
+
+.detaily{
+    float: left;
+    width: 50%;
+    background: white;
+    padding: 30px;
+    height: 440px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 20px #959595;
+}
+
+.slogan{
+    font-weight:500;
+    font-size: 16px;
+}
+
+.cena{
+    font-weight:500;
+    font-size: 28px;
+}
+.zaruka{
+    font-size: 12px;
+}
+
+.cenovka{
+    float: right;
+    position:relative;
+    bottom: 70px;
+}
+.cena{
+    float: right;
+}
+.nazev{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.produkt{
+    color: #959595;
+    padding-bottom: 16px;
+}
+.popis{
+    padding-bottom: 16px;
+}
+.parametr{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    border-top: solid thin;
+    border-color: #06d7c1;
+    padding-top:30px;
+}
+li{
+    float: left;
+    padding: 5px;
+    margin: 8px;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.vybrana:hover{
+    border: solid;
+    color: #f15f42;
+    border-radius: 50%;
+    border-width: thin;
+    padding: 5px;
+}
+.tlacitko{
+    float: left;
+    text-decoration: none;
+    background-color:#f15f42;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    width: 50%;
+    text-align: center;
+}
+.bota{
+    position:relative;
+    right: 100px;
+}
+
+
